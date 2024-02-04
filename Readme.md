@@ -78,10 +78,10 @@ Feel free to adjust these variables based on your specific configuration.
 If you encounter any issues or have suggestions for improvement, please feel free to open an issue or contribute to the project. We appreciate your feedback and help in making the Cybertronic Event Management System even better!
 
 ## Screenshots
-![Hero section]('https://github.com/iodump01/cybertronic-landing-page/blob/a0d660a83b67e1974bf774a395e1feb0d80e296b/screenshots/1.png')
-![Homepgae]('https://github.com/iodump01/cybertronic-landing-page/blob/a0d660a83b67e1974bf774a395e1feb0d80e296b/screenshots/2.png')
-![Homepgae]('https://github.com/iodump01/cybertronic-landing-page/blob/a0d660a83b67e1974bf774a395e1feb0d80e296b/screenshots/3.png')
-![Ticket]('https://github.com/iodump01/cybertronic-landing-page/blob/a0d660a83b67e1974bf774a395e1feb0d80e296b/screenshots/4.png')
+![Hero section](./screenshots/1.png)
+![Homepgae](./screenshots/2.png)
+![Homepgae](./screenshots/3.png)
+![Ticket](./screenshots/4.png)
 
 
 `Happy coding!`
