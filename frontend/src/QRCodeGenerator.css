@@ -1,0 +1,102 @@
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+.ticket-container {
+  width: 35%;
+
+  padding: 10px;
+  background-color: #e5e5e5;
+  margin: auto;
+}
+
+.ticket-region {
+  background-color: white;
+}
+
+.qrcode-region {
+  text-align: center;
+  border-bottom: dashed 3px #d6cdcd;
+}
+
+.qrcode-heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.qrcode-image {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+.qrcode-ticketId {
+  font-size: 16px;
+  opacity: 0.87;
+}
+
+.event-and-ticket-details-region {
+  text-align: left;
+  padding: 20px 24px;
+}
+
+.event-and-ticket-details-region .heading {
+  font-weight: bold;
+}
+
+.event-and-ticket-details-region .text {
+  font-size: 13px !important;
+}
+
+.vif-region {
+  padding-bottom: 20px;
+}
+
+.event-details-region .block {
+  padding-bottom: 20px;
+  box-shadow: 0 0.25px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.event-details-region .block:first-child {
+  padding-top: 0;
+}
+
+.event-details-region .block:last-child {
+  box-shadow: none;
+}
+
+.download-ticket-region {
+  text-align: center;
+  display: block;
+}
+.download-ticket-btn {
+  width: 100%;
+  background-color: #15aacd;
+  font-weight: 700;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20%;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+.download-ticket-btn:hover{
+  color: red;
+}
+@media (max-width: 768px) {
+  .ticket-container {
+    width: 100%;
+  }
+}

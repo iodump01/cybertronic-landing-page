@@ -1,0 +1,32 @@
+.carousel .carousel-header {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.carousel-header.attacker {
+  color: rgb(255, 255, 14);
+  letter-spacing: 0.2rem;
+}
+.carousel-header.security {
+  color: rgb(3, 22, 237);
+}
+.carousel-header.expert {
+  color: rgb(0, 255, 89);
+}
+.carousel-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.carousel .carousel-text.attacker {
+  color: rgb(255, 0, 0);
+}
+.carousel .carousel-text.security {
+  color: rgb(205, 5, 255);
+}
+.carousel .carousel-text.expert {
+  color: rgb(241, 241, 241);
+}
+@media only screen and (max-width: 768px) {
+  #catalogueCarousel {
+    width: 100% !important;
+  }
+}

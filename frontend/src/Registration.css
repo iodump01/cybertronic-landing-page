@@ -1,0 +1,11 @@
+@media (min-width:768px)
+{
+    .registration-card
+    {
+        width: 50%;
+    }
+}
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }

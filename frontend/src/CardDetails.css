@@ -1,0 +1,95 @@
+.c {
+  font-size: 1.8rem;
+  position: relative;
+  width: 280px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  perspective: 500px;
+  margin: 1.5rem;
+}
+
+.CardDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem 0 1rem 0;
+  margin-top: 60px;
+}
+.c::before,
+.c::after {
+  position: absolute;
+  display: block;
+  background: steelblue;
+  animation: go 3s linear both;
+}
+@keyframes go {
+  0% {
+    bottom: 115%;
+  }
+  20% {
+    bottom: 110%;
+  }
+  50% {
+    bottom: 115%;
+  }
+  70% {
+    bottom: 110%;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    bottom: 115%;
+    visibility: hidden;
+  }
+}
+.c::before {
+  content: "Click here to view the answer";
+  color: #fff;
+  bottom: 115%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  left: 0;
+  z-index: 999;
+}
+.c::after {
+  content: "";
+  bottom: 115%;
+  padding: 15px;
+  z-index: 99;
+  transform: rotatez(45deg);
+}
+
+.a,
+.b {
+  background: #fff;
+  border: 1px solid darkblue;
+  box-shadow: 0 100px 50px -70px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: transform 1s ease-out;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  background: teal;
+  color: rgb(255, 255, 255);
+}
+.b {
+  transform: rotatey(180deg);
+}
+
+.c:hover .a {
+  transform: rotatey(180deg);
+}
+.c:hover .b {
+  transform: rotatey(360deg);
+}
